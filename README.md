@@ -33,7 +33,7 @@ I aspire to work in Technical Sales, helping organizations implement modern tech
 ## 📫 How to reach me
 
 - Email: [hevenktayfun@gmail.com](mailto:hevenktayfun@gmail.com)
-- LinkedIn: Add your LinkedIn profile URL here
+- LinkedIn: [Tayfun Hevenk](https://www.linkedin.com/in/tayfun-hevenk-495395250/)
 
 ## ⚡ About Me
 

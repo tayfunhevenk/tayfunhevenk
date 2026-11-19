@@ -21,6 +21,7 @@
         </a>
         <div class="flex flex-wrap justify-end gap-x-5 gap-y-2 text-sm text-gray-300 sm:gap-x-8">
           <a class="transition hover:text-green-400" href="#about">About</a>
+          <a class="transition hover:text-green-400" href="#experience">Experience</a>
           <a class="transition hover:text-green-400" href="#skills">Skills</a>
           <a class="transition hover:text-green-400" href="#learning">Learning</a>
           <a class="transition hover:text-green-400" href="#career">Career goal</a>
@@ -64,26 +65,11 @@
             </div>
           </div>
           <div class="flex justify-center md:justify-end">
-            <div
-              role="img"
-              aria-label="Profile photo placeholder for Tayfun"
-              class="flex aspect-square w-48 flex-col items-center justify-center rounded-full border border-green-400/40 bg-gradient-to-br from-gray-800 to-gray-700 shadow-2xl shadow-green-950/40 sm:w-56 md:w-60 lg:w-72"
-            >
-              <svg
-                aria-hidden="true"
-                class="mb-3 h-16 w-16 text-green-400 sm:h-20 sm:w-20"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="1.25"
-              >
-                <circle cx="12" cy="8" r="4" />
-                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 20a7.5 7.5 0 0 1 15 0" />
-              </svg>
-              <span class="text-sm font-semibold uppercase tracking-[0.18em] text-gray-300">
-                Tayfun · Profile photo
-              </span>
-            </div>
+            <img
+              src="assets/profile-photo.jpg"
+              alt="Tayfun"
+              class="aspect-square w-48 rounded-full border border-green-400/40 object-cover shadow-2xl shadow-green-950/40 sm:w-56 md:w-60 lg:w-72"
+            />
           </div>
         </div>
       </section>
@@ -91,7 +77,7 @@
       <section id="about" class="scroll-mt-8 border-t border-white/10 bg-gray-800/40">
         <div class="mx-auto max-w-6xl px-5 py-16 sm:px-8 sm:py-20">
           <div class="max-w-3xl">
-            <p class="mb-3 font-semibold uppercase tracking-[0.2em] text-green-400">About me</p>
+            <p class="mb-3 inline-flex rounded-full border border-cyan-400/30 bg-cyan-400/10 px-3 py-1 text-sm font-semibold uppercase tracking-[0.16em] text-cyan-300">About me</p>
             <h2 class="mb-6 text-3xl font-bold sm:text-4xl">
               Bringing a customer-focused mindset into IT
             </h2>
@@ -107,40 +93,81 @@
         </div>
       </section>
 
+      <section id="experience" class="scroll-mt-8 border-t border-white/10">
+        <div class="mx-auto max-w-6xl px-5 py-16 sm:px-8 sm:py-20">
+          <p class="mb-3 inline-flex rounded-full border border-amber-400/30 bg-amber-400/10 px-3 py-1 text-sm font-semibold uppercase tracking-[0.16em] text-amber-300">
+            Experience &amp; professional development
+          </p>
+          <h2 class="mb-10 text-3xl font-bold sm:text-4xl">Two strengths, one career path</h2>
+          <div class="grid gap-5 md:grid-cols-2">
+            <article class="rounded-2xl border border-amber-400/20 border-t-2 border-t-amber-400 bg-gray-800/70 p-6 sm:p-8">
+              <p class="mb-2 text-sm font-semibold uppercase tracking-wider text-amber-300">
+                Professional background
+              </p>
+              <h3 class="mb-4 text-2xl font-semibold">Sales Professional</h3>
+              <p class="mb-5 leading-relaxed text-gray-300">
+                I bring a customer-focused, business-oriented perspective from my
+                experience in sales.
+              </p>
+              <ul class="space-y-2 text-gray-200">
+                <li class="flex gap-3"><span class="text-green-400">•</span>Understanding customer needs</li>
+                <li class="flex gap-3"><span class="text-green-400">•</span>Clear, customer-focused communication</li>
+                <li class="flex gap-3"><span class="text-green-400">•</span>Connecting business needs with solutions</li>
+              </ul>
+            </article>
+            <article class="rounded-2xl border border-cyan-400/20 border-t-2 border-t-cyan-400 bg-gray-800/70 p-6 sm:p-8">
+              <p class="mb-2 text-sm font-semibold uppercase tracking-wider text-cyan-300">
+                Current training
+              </p>
+              <h3 class="mb-4 text-2xl font-semibold">IT Specialist for System Integration</h3>
+              <p class="mb-5 leading-relaxed text-gray-300">
+                I’m expanding my technical knowledge through retraining, with practical
+                work across IT systems, infrastructure, and networking.
+              </p>
+              <ul class="space-y-2 text-gray-200">
+                <li class="flex gap-3"><span class="text-green-400">•</span>Windows client virtualization with Hyper-V</li>
+                <li class="flex gap-3"><span class="text-green-400">•</span>Networking, subnetting, and IP addressing</li>
+                <li class="flex gap-3"><span class="text-green-400">•</span>System administration and IT infrastructure</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
       <section id="skills" class="scroll-mt-8">
         <div class="mx-auto max-w-6xl px-5 py-16 sm:px-8 sm:py-20">
-          <p class="mb-3 font-semibold uppercase tracking-[0.2em] text-green-400">
+          <p class="mb-3 inline-flex rounded-full border border-violet-400/30 bg-violet-400/10 px-3 py-1 text-sm font-semibold uppercase tracking-[0.16em] text-violet-300">
             Technical skills
           </p>
-          <h2 class="mb-10 text-3xl font-bold sm:text-4xl">Foundations I’m building</h2>
+          <h2 class="mb-10 text-3xl font-bold sm:text-4xl">Skills &amp; technical foundations</h2>
           <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            <article class="rounded-2xl border border-white/10 bg-gray-800/70 p-6">
-              <h3 class="mb-2 text-xl font-semibold text-white">Systems &amp; virtualization</h3>
+            <article class="rounded-2xl border border-emerald-400/20 border-t-2 border-t-emerald-400 bg-gray-800/70 p-6">
+              <h3 class="mb-2 text-xl font-semibold text-emerald-300">Systems &amp; virtualization</h3>
               <p class="leading-relaxed text-gray-300">
                 Windows client virtualization with Hyper-V, Windows Server technologies,
                 and system administration.
               </p>
             </article>
-            <article class="rounded-2xl border border-white/10 bg-gray-800/70 p-6">
-              <h3 class="mb-2 text-xl font-semibold text-white">Networking</h3>
+            <article class="rounded-2xl border border-sky-400/20 border-t-2 border-t-sky-400 bg-gray-800/70 p-6">
+              <h3 class="mb-2 text-xl font-semibold text-sky-300">Networking</h3>
               <p class="leading-relaxed text-gray-300">
                 Networking fundamentals, subnetting, and IP addressing.
               </p>
             </article>
-            <article class="rounded-2xl border border-white/10 bg-gray-800/70 p-6">
-              <h3 class="mb-2 text-xl font-semibold text-white">Programming &amp; web</h3>
+            <article class="rounded-2xl border border-violet-400/20 border-t-2 border-t-violet-400 bg-gray-800/70 p-6">
+              <h3 class="mb-2 text-xl font-semibold text-violet-300">Programming &amp; web</h3>
               <p class="leading-relaxed text-gray-300">
                 Python programming and web development with HTML and CSS.
               </p>
             </article>
-            <article class="rounded-2xl border border-white/10 bg-gray-800/70 p-6">
-              <h3 class="mb-2 text-xl font-semibold text-white">Tools &amp; collaboration</h3>
+            <article class="rounded-2xl border border-amber-400/20 border-t-2 border-t-amber-400 bg-gray-800/70 p-6">
+              <h3 class="mb-2 text-xl font-semibold text-amber-300">Tools &amp; collaboration</h3>
               <p class="leading-relaxed text-gray-300">
                 Git and GitHub for version control and collaborative work.
               </p>
             </article>
-            <article class="rounded-2xl border border-white/10 bg-gray-800/70 p-6 sm:col-span-2 lg:col-span-1">
-              <h3 class="mb-2 text-xl font-semibold text-white">Business perspective</h3>
+            <article class="rounded-2xl border border-rose-400/20 border-t-2 border-t-rose-400 bg-gray-800/70 p-6 sm:col-span-2 lg:col-span-1">
+              <h3 class="mb-2 text-xl font-semibold text-rose-300">Business perspective</h3>
               <p class="leading-relaxed text-gray-300">
                 Sales experience complemented by business and economic studies.
               </p>
@@ -152,7 +179,7 @@
       <section id="learning" class="scroll-mt-8 border-y border-white/10 bg-gray-800/40">
         <div class="mx-auto grid max-w-6xl gap-10 px-5 py-16 sm:px-8 sm:py-20 md:grid-cols-2">
           <div>
-            <p class="mb-3 font-semibold uppercase tracking-[0.2em] text-green-400">
+            <p class="mb-3 inline-flex rounded-full border border-sky-400/30 bg-sky-400/10 px-3 py-1 text-sm font-semibold uppercase tracking-[0.16em] text-sky-300">
               Current learning topics
             </p>
             <h2 class="mb-5 text-3xl font-bold sm:text-4xl">Learning with a practical focus</h2>
@@ -161,21 +188,38 @@
               while exploring the technologies that support modern organizations.
             </p>
           </div>
-          <ul class="grid content-start gap-3 sm:grid-cols-2">
-            <li class="rounded-xl border border-white/10 bg-gray-900/70 p-4 text-gray-200">Python</li>
-            <li class="rounded-xl border border-white/10 bg-gray-900/70 p-4 text-gray-200">Git &amp; GitHub</li>
-            <li class="rounded-xl border border-white/10 bg-gray-900/70 p-4 text-gray-200">HTML &amp; CSS</li>
-            <li class="rounded-xl border border-white/10 bg-gray-900/70 p-4 text-gray-200">Windows Server</li>
-            <li class="rounded-xl border border-white/10 bg-gray-900/70 p-4 text-gray-200">Network engineering</li>
-            <li class="rounded-xl border border-white/10 bg-gray-900/70 p-4 text-gray-200">Cloud &amp; enterprise technologies</li>
-          </ul>
+          <div class="grid content-start gap-4 sm:grid-cols-2">
+            <article class="rounded-2xl border border-violet-400/20 border-t-2 border-t-violet-400 bg-gray-900/70 p-5">
+              <h3 class="mb-3 font-semibold text-violet-300">Programming &amp; tools</h3>
+              <ul class="space-y-2 text-gray-300">
+                <li>Python</li>
+                <li>Git &amp; GitHub</li>
+                <li>HTML &amp; CSS</li>
+              </ul>
+            </article>
+            <article class="rounded-2xl border border-sky-400/20 border-t-2 border-t-sky-400 bg-gray-900/70 p-5">
+              <h3 class="mb-3 font-semibold text-sky-300">Systems &amp; networking</h3>
+              <ul class="space-y-2 text-gray-300">
+                <li>Windows Server technologies</li>
+                <li>Network engineering</li>
+                <li>Subnetting &amp; IP addressing</li>
+              </ul>
+            </article>
+            <article class="rounded-2xl border border-emerald-400/20 border-t-2 border-t-emerald-400 bg-gray-900/70 p-5 sm:col-span-2">
+              <h3 class="mb-3 font-semibold text-emerald-300">Cloud &amp; enterprise</h3>
+              <ul class="space-y-2 text-gray-300 sm:flex sm:gap-8 sm:space-y-0">
+                <li>Cloud technologies</li>
+                <li>Enterprise technologies</li>
+              </ul>
+            </article>
+          </div>
         </div>
       </section>
 
       <section id="career" class="scroll-mt-8">
         <div class="mx-auto max-w-6xl px-5 py-16 sm:px-8 sm:py-20">
           <div class="rounded-3xl border border-green-400/20 bg-gradient-to-br from-gray-800 to-gray-800/40 p-7 sm:p-10 lg:p-12">
-            <p class="mb-3 font-semibold uppercase tracking-[0.2em] text-green-400">Career goal</p>
+            <p class="mb-3 inline-flex rounded-full border border-rose-400/30 bg-rose-400/10 px-3 py-1 text-sm font-semibold uppercase tracking-[0.16em] text-rose-300">Career goal</p>
             <h2 class="mb-5 max-w-3xl text-3xl font-bold sm:text-4xl">
               Technical Sales for Cloud and SAP solutions
             </h2>
@@ -191,7 +235,7 @@
 
       <section id="contact" class="scroll-mt-8 border-t border-white/10 bg-gray-800/40">
         <div class="mx-auto max-w-6xl px-5 py-16 text-center sm:px-8 sm:py-20">
-          <p class="mb-3 font-semibold uppercase tracking-[0.2em] text-green-400">Contact</p>
+          <p class="mb-3 inline-flex rounded-full border border-teal-400/30 bg-teal-400/10 px-3 py-1 text-sm font-semibold uppercase tracking-[0.16em] text-teal-300">Contact</p>
           <h2 class="mb-4 text-3xl font-bold sm:text-4xl">Let’s connect</h2>
           <p class="mx-auto mb-7 max-w-2xl leading-relaxed text-gray-300">
             I’m happy to connect with recruiters, hiring managers, and professionals

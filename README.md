@@ -4,7 +4,7 @@ I'm Tayfun, a sales professional currently expanding my technical expertise thro
 
 My goal is to combine my sales background with technical knowledge and transition into Technical Sales, particularly in areas such as Cloud Solutions, SAP, and IT Infrastructure.
 
-## 🚀 What I'm currently working on
+## What I'm currently working on
 
 At the Berufsakademie Rhein-Ruhr, I am actively developing my skills in:
 
@@ -16,7 +16,7 @@ At the Berufsakademie Rhein-Ruhr, I am actively developing my skills in:
 - IT infrastructure and system administration
 - Business and economic studies
 
-## 🌱 Currently learning
+## Currently learning
 
 - Python
 - Git & GitHub
@@ -26,15 +26,15 @@ At the Berufsakademie Rhein-Ruhr, I am actively developing my skills in:
 - Subnetting and IP addressing
 - Cloud and enterprise technologies
 
-## 🎯 Career Goal
+## Career Goal
 
 I aspire to work in Technical Sales, helping organizations implement modern technology solutions while bridging the gap between business requirements and technical implementation.
 
-## 📫 How to reach me
+## How to reach me
 
 - Email: [hevenktayfun@gmail.com](mailto:hevenktayfun@gmail.com)
 - LinkedIn: [Tayfun Hevenk](https://www.linkedin.com/in/tayfun-hevenk-495395250/)
 
-## ⚡ About Me
+## About Me
 
 I enjoy combining business thinking with technology and continuously expanding my knowledge in IT, cloud technologies, and digital transformation.
